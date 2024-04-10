@@ -1,0 +1,62 @@
+@import url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+body{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Inter-VariableFont_slnt,wght;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+#main{
+    padding: 20px;
+    height: 400px;
+    width:300px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#main img
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 10
+    50px;
+}
+p
+{
+    margin: 0px;
+}
+.title{
+    font-size: 24px;
+}
+.profession{
+    margin:15px 0px;
+    color: hsl(0, 0%,55%);;
+}
+.subtitle
+{
+    color: hsl(75, 94%, 57%);
+}
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+button
+{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    height: auto;
+    width: 80%;
+    border: none;
+}
